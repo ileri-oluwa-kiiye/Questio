@@ -1,0 +1,173 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    height: 95vh;
+}
+
+.allcontent{
+    margin: 7%;
+}
+
+.logo img{
+    width: 160px;
+    height: fit-content;
+}
+
+main{
+    padding-top: 5%;
+}
+
+.head{
+    text-align: center;
+}
+
+.head p{
+    margin: 15px 0px;
+}
+
+
+button div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: max-content;
+}
+
+button{
+    padding: 12px 24px;
+    border-radius: 555px;
+    font-size: 12px;
+    width: max-content;
+    outline: none;
+    margin-right: 2vw;
+    border: 1px solid white;
+    transition: all 0.3s ease-out;
+}
+
+button span{
+    width: max-content;
+    padding-right: 10px;
+}
+button.docx{
+    background-color: inherit;
+    color: white;
+}
+
+button.pdf{
+    background-color: white;
+    color: black;
+}
+
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+section{
+    margin: auto;
+    background-color: white;
+    color: black;
+    padding: 40px;
+    border-radius: 24px;
+    margin: 40px 5%;
+    max-height: 53vh;
+    overflow-y: scroll;
+}
+
+section h2{
+    font-size: 24px;
+    margin: 10px 0px;
+}
+
+section .question{
+    display: flex;
+}
+
+section span{
+    padding-right: 5px;
+}
+
+.question ul{
+    list-style-type: upper-alpha;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    min-width: 60vw;
+}
+
+.question ul li{
+    padding: 3px;
+    padding-right: 20px;
+}
+
+.question{
+    padding-bottom: 3%;
+    font-size: 16px;
+}
+
+.question img{
+    max-width: 60vw;
+}
+
+
+
+@media screen and (max-width:1000px) {
+    body{
+        background-position: 1%;
+    }
+
+
+    .allcontent{
+        margin: 40px 15px;
+    }
+
+
+    .logo img{
+        width: 90px;
+    }
+    main{
+        padding-top: 50px;
+    }
+
+    .head p{
+        font-size: 12px;
+    }
+
+
+    button{
+        padding: 8px 10px;
+        font-size: 10px;
+    }
+
+    button img{
+        width: 10px;
+    }
+
+    section{
+        padding: 15px;
+    }
+
+    section h2{
+        font-size: 16px;
+    }
+
+    .question ul{
+        display: block;
+    }
+
+    .question{
+        font-size: 12px;
+    }
+}

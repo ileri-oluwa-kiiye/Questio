@@ -1,0 +1,163 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    height: 95vh;
+}
+
+.allcontent{
+    margin: 10%;
+}
+
+.logo img{
+    width: 160px;
+    height: fit-content;
+}
+
+main{
+    padding-top: 5%;
+}
+
+.head{
+    text-align: center;
+}
+
+.head p{
+    margin: 15px 0px;
+}
+
+form{
+    width: 80vw;
+    max-width: 540px;
+    margin: auto;
+    margin-top: 25px;
+    background-color: white;
+    color: black;
+    padding: 40px;
+    border-radius: 24px;
+}
+
+input[type=text]{
+    background-color: inherit;
+    border: none;
+    outline: none;
+    width: 400px;
+    max-width: 80vw;
+    font-size: 15px;
+}
+
+div.flex div input[type=text]{
+    width: max-content;
+}
+
+section div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 12px 24px;
+    border-radius: 9999px;
+}
+
+div.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+form span{
+    color: #57595D;
+    font-size: 12px;
+}
+
+
+section p{
+    padding: 20px 0px 10px 0px;
+}
+
+input[type=submit]{
+    max-width: 80vw;
+    border-radius: 999px;
+    background-color: #1C26AB;
+    color: white;
+    width: 540px;
+    padding: 12px 24px;
+    font-size: 15px;
+    margin: auto;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+}
+
+.submit{
+    padding-top: 30px;
+}
+
+
+input[type=submit]:hover{
+    background-color: black;
+}
+
+
+@media screen and (max-width:1000px) {
+    body{
+        background-position: 1%;
+    }
+
+
+    .allcontent{
+        margin: 40px 15px;
+    }
+
+
+    .logo img{
+        width: 90px;
+    }
+    main{
+        padding-top: 50px;
+    }
+
+    .head p{
+        font-size: 12px;
+    }
+
+    form{
+        padding: 16px;
+    }
+
+    section{
+        padding: 7px 14px;
+    }
+
+
+    div.flex input{
+        max-width: 20vw;
+    }
+
+    input[type=text]{
+        font-size: 12px;
+    }
+
+    section div{
+        padding: 7px 14px;
+    }
+
+    section div img{
+        width: 15px;
+    }
+
+    input[type=submit]{
+        font-size: 13px;
+    }
+
+    span{
+        padding-left: 15px;
+    }
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta charset="UTF-8">
+        <meta name="desciption" content="Paperless Notes and Assessments">
+        <meta name="author" content="Ilerioluwakiiye">
+        <title>QUESTIO</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="icon" type="image/x-icon" href="img/favicon.png">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=GothicA1">
+    </head>
+
+    <body>
+        <div class="allcontent">
+            <div class="logo"><img src="img/Questio Logo.png" alt="Questio Logo"></div>
+            <main>
+                <div class="head">
+                    <h3>Generate fresh questions</h3>
+                    <p>Enter preferences, click generate and wait for the magic</p>
+                </div>
+                <form>
+                    <section>
+                        <p>Select subject</p>
+                        <div>
+                            <input type="text" name="subject" id="Selectsubject" placeholder="Select subject">
+                            <img src="img/arrow-down.png" alt="Select">
+                        </div>
+                    </section>
+                    <section>
+                        <p>Choose topic(s)</p>
+                        <div>
+                            <input type="text" name="topic" id="topic" placeholder="e.g Sequences and series">
+                            <img src="img/list.png" alt="">
+                        </div>
+                    </section>
+                    <span>Choose the topics you want questions to</span>
+                    <section>
+                        <p>Question preferences</p>
+                        <div class="prefer">
+                            <ul>
+                                <li>Subject</li>
+                                <li class="topic">Topic</li>
+                            </ul>
+                            <ul>
+                                <li class="nohead">No of questions</li>
+                                <li class="no"><input type="text" name="no" id="no" value="00"></li>
+                            </ul>
+                        </div>
+                    </section>
+                    <span>Enter number of questions per topic & switch diagrams on/off</span>
+                    <section>
+                        <p>Question type</p>
+                        <input type="radio" name="questiontype" id="obj"><label for="obj">Multiple choice</label>
+                        <input type="radio" name="questiontype" id="theory"><label for="theory">Theory</label>
+                    </section>
+                    <div class="submit"><input type="submit" value="GENERATE QUESTIONS"></div>
+                </form>
+            </main>
+        </div>
+    </body>
+</html>
